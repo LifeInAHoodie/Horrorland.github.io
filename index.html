@@ -5,16 +5,27 @@
         <title>Welcome to Horrorland</title>
         <meta name="description" content="Starter Template">
         <link rel="stylesheet" href="./styles.css">
+        <script type="text/javascript" src="./script.js"></script>
         </head>
 
         <body>
-            <nav class="top">
 
-            </nav>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
 
-            <div></div>
-            <div class="main">
-                <img src="./One_Day_at_HorrorLand_-_artwork.jpg" class="monster">
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+                <h2>Collapsed Sidebar</h2>
+                <p>Content...</p>
+              </div>
+
+            <div class="horror">
+                
             </div>
             <div class="bottom"></div>
 
